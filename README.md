@@ -1,8 +1,10 @@
 ## Personal website
 
-Coding my personal website from scratch. 
+My simple personal portfolio website.
 
-## Tools
+## Technologies
 
-I'll be using HTML, CSS, SASS, and JS. More programs will flow as needs change.
+1. HTML
+2. CSS
+3. JS
 
