@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+  font-family: 'Mukta', sans-serif;
+  font-size: 27px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #f5f5f5;
+  width: 70%;
+  margin: auto;
+  color: #444444;
+}
+
+a {
+  color: #fe5d52;
+}
+
+/* ******** HEADER ******** */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px double #fe5d52;
+  padding: 0.7em;
+}
+
+h1 > .main-title {
+  color: #bebebe;
+  font-style: italic;
+}
+
+.right-header > ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.right-header > ul > li {
+  display: inline;
+}
+
+/* ******** BODY ******** */
+
+.intro-text,
+.title {
+  font-size: 60px;
+  padding: 0.7em 0;
+  line-height: 1.5;
+}
+
+.title {
+  color: #fe5d52;
+}
+
+.sub-heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0.2em 0;
+  padding: 0.3em 0;
+  line-height: 1.5;
+}
