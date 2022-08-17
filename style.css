@@ -75,3 +75,18 @@ h1 > .main-title {
   margin: auto;
   width: 70%;
 }
+
+#contact-section {
+  border-bottom: 2px double #fe5d52;
+  padding-bottom: 0.5em;
+}
+
+/* ******** FOOTER ******** */
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  /*  */
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+}
