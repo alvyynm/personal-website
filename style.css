@@ -70,8 +70,8 @@ h1 > .main-title {
 .skills-container {
   display: inline-grid;
   grid-template-columns: auto auto;
-  justify-items: end;
-  column-gap: 2em;
+  justify-items: start;
+  column-gap: 1em;
   margin: auto;
   width: 70%;
 }
@@ -79,6 +79,14 @@ h1 > .main-title {
 #contact-section {
   border-bottom: 2px double #fe5d52;
   padding-bottom: 0.5em;
+}
+
+.list {
+  list-style-position: inside;
+}
+
+.list > li {
+  margin-left: 1.5em;
 }
 
 /* ******** FOOTER ******** */
