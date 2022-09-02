@@ -1,3 +1,9 @@
+:root {
+  --orange: #fe5d52;
+  --grey: #444444;
+  --lightgrey: #bebebe;
+  --white: #f5f5f5;
+}
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 * {
@@ -9,18 +15,18 @@
 
 body {
   line-height: 1.5;
-  background-color: #f5f5f5;
+  background-color: var(--white);
   width: 70%;
   margin: auto;
-  color: #444444;
+  color: var(--grey);
 }
 
 a {
-  color: #fe5d52;
+  color: var(--orange);
 }
 
 a:hover {
-  color: #ff8d85;
+  color: var(--orange);
 }
 
 /* ******** HEADER ******** */
@@ -28,12 +34,12 @@ a:hover {
 .main-header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px double #fe5d52;
+  border-bottom: 2px double var(--orange);
   padding: 0.7em;
 }
 
 h1 > .main-title {
-  color: #bebebe;
+  color: var(--lightgrey);
   font-style: italic;
 }
 
@@ -56,7 +62,7 @@ h1 > .main-title {
 }
 
 .title {
-  color: #fe5d52;
+  color: var(--orange);
 }
 
 .sub-heading {
@@ -77,7 +83,7 @@ h1 > .main-title {
 }
 
 #contact-section {
-  border-bottom: 2px double #fe5d52;
+  border-bottom: 2px double var(--orange);
   padding-bottom: 0.5em;
 }
 
